@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Tabelka 1</title>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+article, aside, dialog, figure, footer, header,
+hgroup, menu, nav, section { display: block; }
+</style>
+<style type="text/css">
+table { border: 1pt solid black; border-spacing: 5pt; }
+th { font-style: italic; font-weight: normal; }
+th.first_column { font-weight: normal; }
+td.first_column { font-weight: bold; }
+.first_column { text-align: right; }
+.second_column { text-align: center; font-style: italic; }
+.center_columns { text-align: center; }
+.last_column { text-align: left; }
+</style>
+</head>
+
+<body>
+<p>
+<table>
+<caption style="font-weight: bold;">Kurczaki:</caption>
+<tr>
+<td class="first_column">American<br/>Chicken</th>
+<td class="second_column">French<br/>Connection</th>
+<td class="center_columns">Age<br/>(months)</th>
+<td class="center_columns">Weight<br/>(lbs.)</th>
+<td class="last_column">Cooking<br/>Methods</th>
+</tr>
+<tr>
+<td class="first_column">Squab</td>
+<td class="second_column">Poussin</td>
+<td class="center_columns">2</td>
+<td class="center_columns">&frac34 to 1</td>
+<td class="last_column">Broil, Grill, Roast</td>
+</tr>
+<tr>
+<td class="first_column">Broiler</td>
+<td class="second_column">Poulet Nouveau</td>
+<td class="center_columns">2 to 3</td>
+<td class="center_columns">1&frac12 to 2&frac12</td>
+<td class="last_column">Broil, Grill, Roast</td>
+</tr>
+<tr>
+<td class="first_column">Fryer</td>
+<td class="second_column">Poulet Reine</td>
+<td class="center_columns">3 to 5</td>
+<td class="center_columns">2 to 3</td>
+<td class="last_column">Fry, Saute, Roast</td>
+</tr>
+<tr>
+<td class="first_column">Roaster</td>
+<td class="second_column">Poularde</td>
+<td class="center_columns">5&frac12 to 9</td>
+<td class="center_columns">Over 3</td>
+<td class="last_column">Roast, Poach, Fricassee</td>
+</tr>
+<tr>
+<td class="first_column">Fowl</td>
+<td class="second_column">Poule de l'Annee</td>
+<td class="center_columns">10 to 12</td>
+<td class="center_columns">Over 3</td>
+<td class="last_column">Stew, Fricassee</td>
+</tr>
+<tr>
+<td class="first_column">Rooster</td>
+<td class="second_column">Coq</td>
+<td class="center_columns">Over 12</td>
+<td class="center_columns">Over 3</td>
+<td class="last_column">Soup stock, Forcemeat</td>
+</tr>
+</table>
+</p>
+</body>
+</html>
